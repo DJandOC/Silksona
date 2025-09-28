@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Page</title>
+<link rel="stylesheet" href="dressUp.css">
+</head>
+<body>
+<script type="text/javascript" src="code.js"></script>
+
+<img id="hBody" src= "hornetsona/body/black.png">
+<img id="hHead" src= "hornetsona/head/1.png">
+<img id="hLEye" src= "hornetsona/blank.png">
+<img id="hREye" src= "hornetsona/blank.png">
+<img id="hClothes" src= "hornetsona/blank.png">
+<img id="hWeapon" src= "hornetsona/blank.png">
+
+<div>
+	<button type="button" onclick= "changeImgSrc('head')"> Head </button> 
+	<button type="button" onclick= "changeImgSrc('body')"> Body </button>
+
+	<button type="button" onclick="changeImgSrc('clothes')"> Clothes </button>
+	<button type="button" onclick="colorChange(0)"> Clothes Color </button>
+
+	<button type="button" onclick="changeImgSrc('eyes')"> Eyes </button>
+	<button type="button" onclick="colorChange(1)"> Left Eye Color </button>
+	<button type="button" onclick="colorChange(2)"> Right Eye Color </button>
+
+	<button type="button" onclick="changeImgSrc('weapon')"> Weapon </button>
+</div>
+
+</body>
+</html> 

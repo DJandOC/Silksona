@@ -1,0 +1,21 @@
+body {
+  background-color: #878787;
+}
+
+img {
+  width:40%;
+  display:inline-block;
+  position:absolute;
+  margin-left: 20%;
+}
+
+div {
+  width: 10%;
+  display: block;
+  position: float;
+  margin-right: 5%;
+}
+
+button {
+  width:100%;
+}
